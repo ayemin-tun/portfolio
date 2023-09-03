@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $("#downloadCVBtn").click(function () {
-    var fileURL = "additonal_file/Personal-Resume-Aye-MIn-Tun (for dev).docx";
+    var fileURL = "additonal_file/personal_Resume.pdf";
     var a = $("<a>")
       .attr("href", fileURL)
       .attr("download", "Personal Resume for Aye Min Tun")
