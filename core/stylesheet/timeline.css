@@ -33,7 +33,10 @@
   color: #bcd0f7;
   font-size: 1.5rem;
 }
-
+.timeline-time h4 {
+  color: orangered;
+  font-weight: bold;
+}
 .timeline-row .timeline-content {
   position: relative;
   padding: 20px 30px;
