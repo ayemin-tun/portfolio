@@ -17,6 +17,8 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="core/stylesheet/main.css" />
+    <!-- for project timeline -->
+    <link rel="stylesheet" href="core/stylesheet/timeline.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>AMT profilo</title>
 </head>
@@ -184,138 +186,151 @@
                             </div>
                         </div>
                     </div>
+                    <span id="project"></span>
                 </div>
             </div>
         </section>
+
     </div>
     <!-- About -->
 
     <!-- Project -->
-    <div class="bg-light text-dark" id="project">
+    <div class="bg-light text-dark">
         <section class="container p-3">
-            <h3 class="text-center">My Project</h3>
-            <hr class="hrForProject" />
+            <h3 class="text-center" style="font-weight: bold;">My Project</h3>
+            <div class="timeline">
 
-            <div class="row mt-4">
-                <div class="col-md-4 mb-3">
-                    <div class="card border rounded">
-                        <img src="img/nyanpasu.png" alt="" srcset="" class="img-fluid w-100" style="height: 250px;">
-                        <div class="card-body p-4">
-                            <h5 class="projectName">Nyanpasu Music</h5>
-                            <p class="projectInfo">
-                                This is a platform where you can discover,enjoy and request translated music video that
-                                is associated with anime.
-                            </p>
-                            <div class="language mb-3">
-                                <span class="badge bg-danger">HTML</span>
-                                <span class="badge bg-danger">CSS</span>
-                                <span class="badge bg-danger">JavaScript</span>
-                                <span class="badge bg-danger">Bootstrap</span>
-                                <span class="badge bg-danger">PHP</span>
-                                <span class="badge bg-danger">MySQL</span>
-                            </div>
-                            <div class="d-flex justify-content-end">
-                                <a href="https://github.com/ayemin-tun/nyanpasu_music.git">
-                                    <button type="button" class="btn btn-dark projectBtn">
-                                        <i class="fa-brands fa-github"></i> Show in Github
-                                    </button>
-                                </a>
+                <!-- for nyanpasu_music -->
+                <div class="timeline-row">
+                    <div class="timeline-time text-dark">
+                        <h4>Music translation website</h4>
+                    </div>
+                    <div class="timeline-content text-light">
 
-                            </div>
+                        <h4>Nyanpasu Music</h4>
+                        <p>This is a platform where you can discover,enjoy and request translated music video that is
+                            associated with anime.
 
+                        </p>
 
+                        <div class="">
+                            <span class="badge badge-pill">HTML</span>
+                            <span class="badge badge-pill">CSS</span>
+                            <span class="badge badge-pill">JavaScript</span>
+                            <span class="badge badge-pill">Bootstrap</span>
+                            <span class="badge badge-pill">PHP</span>
+                            <span class="badge badge-pill">MySqL</span>
+                        </div>
+
+                        <div>
+                            <a href="https://github.com/ayemin-tun/nyanpasu_music.git">
+                                <button type="button" class="btn btn-outline-light projectBtn btn-sm mt-4">
+                                    <i class="fa-brands fa-github"></i> Show in Github
+                                </button>
+                            </a>
+
+                            <a href="http://nyanpasumusic.epizy.com">
+                                <button type="button" class="btn btn-outline-light projectBtn btn-sm mt-4">
+                                    <i class="fa-brands fa-chrome"></i> Go to Website
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- for realchat -->
+                <div class="timeline-row">
+                    <div class="timeline-time text-dark">
+                        <h4>Real time chat App</h4>
+                    </div>
+                    <div class="timeline-content text-light">
+
+                        <h4>Real Chat</h4>
+                        <p>Welcome to our Real-Time Chat Application! It's your go-to platform for instant, seamless
+                            communication. Connect with friends, colleagues, or anyone worldwide in real-time.
+
+                        </p>
+
+                        <div class="">
+                            <span class="badge badge-pill">HTML</span>
+                            <span class="badge badge-pill">CSS</span>
+                            <span class="badge badge-pill">JavaScript</span>
+                            <span class="badge badge-pill">AJAX</span>
+                            <span class="badge badge-pill">PHP</span>
+                            <span class="badge badge-pill">MySqL</span>
+                        </div>
+
+                        <div>
+                            <a href="https://github.com/ayemin-tun/realchat.git">
+                                <button type="button" class="btn btn-outline-light projectBtn btn-sm mt-4">
+                                    <i class="fa-brands fa-github"></i> Show in Github
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- for MMTravel -->
+                <div class="timeline-row">
+                    <div class="timeline-time text-dark">
+                        <h4>Tour Website (Web Design Only)</h4>
+                    </div>
+                    <div class="timeline-content text-light">
+
+                        <h4>MMTravel</h4>
+                        <p>Design the Tour Website.Developed a visually appealing interface with responsive design.
+
+                        </p>
+
+                        <div class="">
+                            <span class="badge badge-pill">HTML</span>
+                            <span class="badge badge-pill">CSS</span>
+                            <span class="badge badge-pill">Bootstrap</span>
+                        </div>
+
+                        <div>
+                            <a href="https://github.com/ayemin-tun/mmTravel.git">
+                                <button type="button" class="btn btn-outline-light projectBtn btn-sm mt-4">
+                                    <i class="fa-brands fa-github"></i> Show in Github
+                                </button>
+                            </a>
+                            <a href="https://ayemin-tun.github.io/mmTravel/">
+                                <button type="button" class="btn btn-outline-light projectBtn btn-sm mt-4">
+                                    <i class="fa-brands fa-chrome"></i> Go to Website
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Others -->
+                <div class="timeline-row">
+                    <div class="timeline-time text-dark">
+                        <h4>Other</h4>
+                    </div>
+                    <div class="timeline-content text-light">
+
+                        <h4>Additional Project</h4>
+                        <p>
+                            I have also been involved in several other web development projects that further highlight
+                            my
+                            skills and expertise. If you're keen to explore more of my work, I'd be delighted to provide
+                            additional details and examples. Please don't hesitate to contact me at my email for further
+                            information or access to additional project repositories.
+                        </p>
+
+                        <div>
+                            <a href="mailto:amtamt547@gmail.com">
+                                <button type="button" class="btn btn-outline-light projectBtn btn-sm mt-4">
+                                    <i class="fa fa-envelope"></i> Send Email
+                                </button>
+                            </a>
+                            <a href="https://github.com/ayemin-tun">
+                                <button type="button" class="btn btn-outline-light projectBtn btn-sm mt-4">
+                                    <i class="fa-brands fa-github"></i> Git Hub
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/realchat.png" alt="" srcset="" class="img-fluid w-100" style="height: 250px;">
-                        <div class="card-body p-4">
-                            <h5 class="projectName">Real Chat</h5>
-                            <p class="projectInfo">
-                                Welcome to our Real-Time Chat Application! It's your go-to platform for instant,
-                                seamless communication. Connect with friends, colleagues, or anyone worldwide in
-                                real-time.
-                            </p>
-                            <div class="language mb-3">
-                                <span class="badge bg-danger">HTML</span>
-                                <span class="badge bg-danger">CSS</span>
-                                <span class="badge bg-danger">JavaScript</span>
-                                <span class="badge bg-danger">AJAX</span>
-                                <span class="badge bg-danger">PHP</span>
-                                <span class="badge bg-danger">MySQL</span>
-                            </div>
-                            <div class="d-flex justify-content-end">
-                                <a href="https://github.com/ayemin-tun/realchat.git">
-                                    <button type="button" class="btn btn-dark projectBtn">
-                                        <i class="fa-brands fa-github"></i> Show in Github
-                                    </button>
-                                </a>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="img/MMTravel.png" alt="" srcset="" class="img-fluid w-100" style="height: 250px;">
-                        <div class="card-body p-4">
-                            <h5 class="projectName">MM Travel</h5>
-                            <p class="projectInfo">
-                                Design the Tour Website Design.Developed a visually appealing interface with responsive
-                                design.
-                            </p>
-                            <div class="language mb-3">
-                                <span class="badge bg-danger">HTML</span>
-                                <span class="badge bg-danger">CSS</span>
-                                <span class="badge bg-danger">Bootstrap</span>
-                            </div>
-                            <div class="d-flex justify-content-end">
-                                <a href="https://github.com/ayemin-tun/mmTravel.git">
-                                    <button type="button" class="btn btn-dark projectBtn">
-                                        <i class="fa-brands fa-github"></i> Show in Github
-                                    </button>
-                                </a>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <h5 class="projectName">Additional Projects</h5>
-                            <p class="projectInfo">
-                                I have also been involved in several other web development projects that further
-                                highlight my skills and expertise. If you're keen to explore more of my work, I'd be
-                                delighted to provide additional details and examples. Please don't hesitate to contact
-                                me at my email for further information or access to additional project repositories.
-                            </p>
-                            <div class="language mb-3">
-
-                            </div>
-                            <div class="d-flex justify-content-end">
-                                <a href="mailto:amtamt547@gmail.com">
-                                    <button type="button" class="btn btn-dark projectBtn">
-                                        <i class="fa fa-envelope"></i> send Email
-                                    </button>
-                                </a>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
 
         </section>
     </div>
